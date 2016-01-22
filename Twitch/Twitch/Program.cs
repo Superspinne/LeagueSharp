@@ -24,8 +24,6 @@ namespace Twitch
 
         private static void Game_OnGameLoad(EventArgs args)
         {
-
-
             W = new Spell(SpellSlot.W, 950);
             W.SetSkillshot(0.25f, 120f, 1400f, false, SkillshotType.SkillshotCircle);
             E = new Spell(SpellSlot.E, 1200);
